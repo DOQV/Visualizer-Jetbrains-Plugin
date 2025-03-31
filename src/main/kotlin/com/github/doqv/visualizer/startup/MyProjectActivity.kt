@@ -1,4 +1,4 @@
-package com.github.doqv.visualizerjetbrainsplugin.startup
+package com.github.doqv.visualizer.startup
 
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project

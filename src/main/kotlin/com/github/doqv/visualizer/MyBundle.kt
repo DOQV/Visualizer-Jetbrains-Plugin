@@ -1,4 +1,4 @@
-package com.github.doqv.visualizerjetbrainsplugin
+package com.github.doqv.visualizer
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

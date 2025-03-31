@@ -1,4 +1,4 @@
-package com.github.doqv.visualizerjetbrainsplugin.toolWindow
+package com.github.doqv.visualizer.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.doqv.visualizerjetbrainsplugin.MyBundle
-import com.github.doqv.visualizerjetbrainsplugin.services.MyProjectService
+import com.github.doqv.visualizer.MyBundle
+import com.github.doqv.visualizer.services.MyProjectService
 import javax.swing.JButton
 
 

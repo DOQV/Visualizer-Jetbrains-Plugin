@@ -1,9 +1,9 @@
-package com.github.doqv.visualizerjetbrainsplugin.services
+package com.github.doqv.visualizer.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.doqv.visualizerjetbrainsplugin.MyBundle
+import com.github.doqv.visualizer.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

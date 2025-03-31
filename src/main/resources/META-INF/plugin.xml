@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.doqv.visualizerjetbrainsplugin</id>
+    <id>com.github.doqv.visualizer</id>
     <name>Visualizer-Jetbrains-Plugin</name>
     <vendor>doqv</vendor>
 
@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.doqv.visualizerjetbrainsplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.doqv.visualizerjetbrainsplugin.startup.MyProjectActivity" />
+        <toolWindow factoryClass="com.github.doqv.visualizer.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="com.github.doqv.visualizer.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>
